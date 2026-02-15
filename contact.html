@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - MediVerify Solution</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="container nav">
+            <div class="logo"><i class="fas fa-heartbeat"></i> Medi<span>Verify</span> Solution</div>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="policyholders.html">For Policyholders</a></li>
+                <li><a href="corporate.html">For Insurers</a></li>
+                <li><a href="hospitals.html">Hospital Network</a></li>
+                <li><a href="contact.html" class="btn-contact active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="animate-fade-in">Contact Us</h1>
+            <p class="animate-fade-in">We're Here to Help 24/7</p>
+        </div>
+    </section>
+
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-section animate-on-scroll">
+                    <h2 style="color: var(--dark-blue); margin-bottom: 2rem;">Get In Touch</h2>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon"><i class="fas fa-building"></i></div>
+                        <div>
+                            <h4>Corporate Office</h4>
+                            <p>MediVerify Solution<br>
+                            Himmatnagar, Sabarkantha District<br>
+                            Gujarat - 383001<br>
+                            India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Contact Numbers</h4>
+                            <p>Mobile: <strong>+91 94266 63766</strong><br>
+                            International: <strong>+1 231 680 0606</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Support</h4>
+                            <p>General: jasmin.patel@mediverifysolution.com<br>
+                            Claims: claims@mediverifysolution.com<br>
+                            Hospitals: hospitals@mediverifysolution.com<br>
+                            Corporate: corporate@mediverifysolution.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Mon - Fri: 9:00 AM - 5:00 PM<br>
+                            Saturday & Sunday: Closed<br>
+                            <strong>Emergency Support: 24/7 Available</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-section animate-on-scroll">
+                    <h2 style="color: var(--dark-blue); margin-bottom: 2rem;">Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Submit Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo"><i class="fas fa-heartbeat"></i> Medi<span>Verify</span> Solution</div>
+                    <p>Precision in Verification. Confidence in Care.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> +91 94266 63766</li>
+                        <li><i class="fas fa-envelope"></i> jasmin.patel@mediverifysolution.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Himmatnagar, Gujarat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MediVerify Solution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
